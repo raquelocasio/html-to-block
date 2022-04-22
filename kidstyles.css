@@ -1,0 +1,32 @@
+/* because I always forget how to write these...
+font-family: 'Handlee', cursive;
+font-family: 'Nunito', sans-serif; 
+*/
+
+.pagecontent {
+    padding: 80px 15% 0 15%;
+}
+
+.aioseo-breadcrumbs {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.aioseo-breadcrumbs a:visited {
+    color: white;
+}
+
+.wp-block-post-title {
+    font-family: 'Handlee', cursive;
+    color: #00394F;
+}
+
+.wp-block-post-content {
+    font-family: 'Nunito', sans-serif;
+    color: #666666;
+}
+
+.wp-block-post-featured-image {
+    border-radius: 10px;
+}
