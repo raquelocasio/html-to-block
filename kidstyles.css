@@ -3,8 +3,22 @@ font-family: 'Handlee', cursive;
 font-family: 'Nunito', sans-serif; 
 */
 
-.pagecontent {
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Nunito:ital@1&display=swap');
+
+.pagecontent, .postcontent {
     padding: 80px 15% 0 15%;
+}
+
+.wp-block-columns.errorcontent {
+    padding: 40px 25% 0 25%;
+}
+
+.errorheading {
+    font-family: 'Handlee', cursive;
+}
+
+.errortext {
+    font-family: 'Nunito', sans-serif;
 }
 
 .aioseo-breadcrumbs {
@@ -17,16 +31,11 @@ font-family: 'Nunito', sans-serif;
     color: white;
 }
 
-.wp-block-post-title {
-    font-family: 'Handlee', cursive;
-    color: #00394F;
-}
-
-.wp-block-post-content {
+a.wp-block-post-excerpt__more-link {
+    background-color: #17A2B8;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    text-align: center;
     font-family: 'Nunito', sans-serif;
-    color: #666666;
-}
-
-.wp-block-post-featured-image {
-    border-radius: 10px;
 }
