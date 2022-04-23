@@ -31,11 +31,33 @@ font-family: 'Nunito', sans-serif;
     color: white;
 }
 
+/* style blog grid "readmore" link into a button */
 a.wp-block-post-excerpt__more-link {
     background-color: #17A2B8;
     border-radius: 20px;
     color: white;
-    padding: 15px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
     font-family: 'Nunito', sans-serif;
+    width: 30%;
+}
+
+.bloggridquery {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloggridtitle {
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+}
+
+.bloggridmeta, .bloggridexcerpt {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* comment button on posts */
+input#submit {
+    background-color: #17A2B8;
 }
